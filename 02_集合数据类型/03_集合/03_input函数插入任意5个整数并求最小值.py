@@ -5,4 +5,5 @@ while i < 5:
     print("请输入第%d个整数" % (i+1), end="")
     st.add(int(input(":")))
     i += 1
-print(st, ";最小元素是%d" % (min(st)))
+print(st)
+print("最小元素是%d" % (min(st)))
