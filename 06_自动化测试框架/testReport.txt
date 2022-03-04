@@ -1,0 +1,19 @@
+test_001_0 (parameter.MyTest) ... ok
+test_001_1 (parameter.MyTest) ... ok
+test_001_2 (parameter.MyTest) ... FAIL
+test_002 (parameter.MyTest) ... skipped ''
+
+======================================================================
+FAIL: test_001_2 (parameter.MyTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lybgl\AppData\Local\Programs\Python\Python310\lib\site-packages\parameterized\parameterized.py", line 533, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "E:\LearingProject\Python\06_自动化测试框架\parameter.py", line 32, in test_001
+    self.assertEqual(rec, c)
+AssertionError: 25 != 30
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.002s
+
+FAILED (failures=1, skipped=1)
