@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08_包/Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_包/myPack/Div.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_包/myPack/Sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08_包/myPack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/02_查询.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/03_insert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/DBExcute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/DBTools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/ExcuteSql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_PyMysql/testSql.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_PerformanceTest/Locust/locustTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_PerformanceTest/轻商城性能测试/收获地址构建.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_PerformanceTest/轻商城性能测试/构建测试数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_PerformanceTest/轻商城性能测试/构建测试用户数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/01_selenium入门.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/02_id定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/03_name定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/04_class_name定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/05_tag_name定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/06_link_text定位.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/07_定位一组元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/01_get请求.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/02_get请求参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/03_post表单数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/04_post_JSON数据.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/05_url参数.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/06_设置请求头.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/07_验证码登录问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/01_Requests库/08_session解决验证码登录问题.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/02_集成UitTest/loginAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/02_集成UitTest/loginAPI_param.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/02_集成UitTest/runSuite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/02_集成UitTest/testdata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeAPITest_10/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_PyMysql/01_连接数据库.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_PyMysql/01_连接数据库.py" afterDir="false" />
-    </list>
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +16,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -64,6 +31,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="823a0cde-55a1-4239-bfaf-9f7b78beefa3" />
+        <option name="url" value="https://github.com/lybglory/Python.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -264,6 +239,14 @@
       <option name="presentableId" value="Default" />
       <updated>1646755403355</updated>
     </task>
+    <task id="LOCAL-00001" summary="selenium">
+      <created>1650820699528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650820699529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -276,5 +259,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="selenium" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium" />
   </component>
 </project>
