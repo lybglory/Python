@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium元素等待">
-      <change afterPath="$PROJECT_DIR$/13_selenium/26_强制等待.py" afterDir="false" />
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium元素强制等待">
+      <change afterPath="$PROJECT_DIR$/13_selenium/27_下拉菜单操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/28_Select操作方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/29_弹出框.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/30_滚动条的操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/31_frame切换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/32_多窗口操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/33_截图操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/34_cookie操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_selenium/36_百度搜图操作.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +84,8 @@
       <recent name="E:\LearingProject\Python\09_代码接口测试\01_Requests库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.26_强制等待">
-    <configuration name="22_单元素拖动" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.36_百度搜图操作">
+    <configuration name="32_多窗口操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,7 +97,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/22_单元素拖动.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/32_多窗口操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="23_键盘操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="33_截图操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,7 +118,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/23_键盘操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/33_截图操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +127,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="24_隐士等待" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="34_cookie操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/24_隐士等待.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/34_cookie操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +148,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="25_显示等待" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="35_重复执行注册用例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +160,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/25_显示等待.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +169,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="26_强制等待" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="36_百度搜图操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -172,7 +181,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/26_强制等待.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/36_百度搜图操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.26_强制等待" />
-        <item itemvalue="Python.25_显示等待" />
-        <item itemvalue="Python.24_隐士等待" />
-        <item itemvalue="Python.23_键盘操作" />
-        <item itemvalue="Python.22_单元素拖动" />
+        <item itemvalue="Python.36_百度搜图操作" />
+        <item itemvalue="Python.35_重复执行注册用例" />
+        <item itemvalue="Python.34_cookie操作" />
+        <item itemvalue="Python.33_截图操作" />
+        <item itemvalue="Python.32_多窗口操作" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651080417324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="selenium元素强制等待">
+      <created>1651230955694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651230955694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,6 +279,18 @@
     <MESSAGE value="selenium元素操作、浏览器操作" />
     <MESSAGE value="selenium获取元素信息、鼠标/键盘操作" />
     <MESSAGE value="selenium元素等待" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium元素等待" />
+    <MESSAGE value="selenium元素强制等待" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium元素强制等待" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
