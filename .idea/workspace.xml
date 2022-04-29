@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium获取元素信息、鼠标/键盘操作">
-      <change afterPath="$PROJECT_DIR$/13_selenium/24_隐士等待.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/25_显示等待.py" afterDir="false" />
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium元素等待">
+      <change afterPath="$PROJECT_DIR$/13_selenium/26_强制等待.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,28 +75,7 @@
       <recent name="E:\LearingProject\Python\09_代码接口测试\01_Requests库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.25_显示等待">
-    <configuration name="21_dragAndMove" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/21_dragAndMove.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.26_强制等待">
     <configuration name="22_单元素拖动" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,13 +160,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="26_强制等待" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/26_强制等待.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.26_强制等待" />
         <item itemvalue="Python.25_显示等待" />
         <item itemvalue="Python.24_隐士等待" />
         <item itemvalue="Python.23_键盘操作" />
         <item itemvalue="Python.22_单元素拖动" />
-        <item itemvalue="Python.21_dragAndMove" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651076093538</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="selenium元素等待">
+      <created>1651080417323</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651080417324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,6 +262,7 @@
     <MESSAGE value="selenium css定位" />
     <MESSAGE value="selenium元素操作、浏览器操作" />
     <MESSAGE value="selenium获取元素信息、鼠标/键盘操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium获取元素信息、鼠标/键盘操作" />
+    <MESSAGE value="selenium元素等待" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium元素等待" />
   </component>
 </project>
