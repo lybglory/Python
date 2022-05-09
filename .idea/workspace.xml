@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium元素强制等待">
-      <change afterPath="$PROJECT_DIR$/13_selenium/27_下拉菜单操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/28_Select操作方法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/29_弹出框.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/30_滚动条的操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/31_frame切换.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/32_多窗口操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/33_截图操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/34_cookie操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_selenium/36_百度搜图操作.py" afterDir="false" />
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium html元素操作、验证码处理及文件上传的处理">
+      <change afterPath="$PROJECT_DIR$/14_Appium/01_入门示例.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/02_start_activity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/03_id定位元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/04_元素练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/05_元素定位封装.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/06_元素操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/07_元素获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/08_输入封装.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/MyTools.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CI" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,8 +83,8 @@
       <recent name="E:\LearingProject\Python\09_代码接口测试\01_Requests库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.36_百度搜图操作">
-    <configuration name="32_多窗口操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.08_输入封装">
+    <configuration name="04_元素练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/32_多窗口操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/04_元素练习.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -106,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="33_截图操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_元素定位封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/33_截图操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/05_元素定位封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="34_cookie操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="06_元素操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,11 +134,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/34_cookie操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/06_元素操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="35_重复执行注册用例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="07_元素获取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/07_元素获取.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +168,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="36_百度搜图操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="08_输入封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,11 +176,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/13_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13_selenium/36_百度搜图操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/08_输入封装.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -192,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.36_百度搜图操作" />
-        <item itemvalue="Python.35_重复执行注册用例" />
-        <item itemvalue="Python.34_cookie操作" />
-        <item itemvalue="Python.33_截图操作" />
-        <item itemvalue="Python.32_多窗口操作" />
+        <item itemvalue="Python.08_输入封装" />
+        <item itemvalue="Python.07_元素获取" />
+        <item itemvalue="Python.06_元素操作" />
+        <item itemvalue="Python.05_元素定位封装" />
+        <item itemvalue="Python.04_元素练习" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651230955694</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="selenium html元素操作、验证码处理及文件上传的处理">
+      <created>1651256415916</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651256415916</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +286,8 @@
     <MESSAGE value="selenium获取元素信息、鼠标/键盘操作" />
     <MESSAGE value="selenium元素等待" />
     <MESSAGE value="selenium元素强制等待" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium元素强制等待" />
+    <MESSAGE value="selenium html元素操作、验证码处理及文件上传的处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="selenium html元素操作、验证码处理及文件上传的处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -291,6 +298,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="NONE" type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
