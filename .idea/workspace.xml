@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="selenium html元素操作、验证码处理及文件上传的处理">
-      <change afterPath="$PROJECT_DIR$/14_Appium/01_入门示例.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/02_start_activity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/03_id定位元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/04_元素练习.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/05_元素定位封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/06_元素操作.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/07_元素获取.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/08_输入封装.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14_Appium/MyTools.py" afterDir="false" />
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="appium元素定位、操作">
+      <change afterPath="$PROJECT_DIR$/14_Appium/09_手机操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/10_定位元素容错机制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/12_滑屏操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/13_边滑动边查找.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14_Appium/14_高级手势.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14_Appium/MyTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/14_Appium/MyTools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../CI" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\LearingProject\Python\CodeAPITest_10\02_集成UitTest" />
@@ -83,8 +85,8 @@
       <recent name="E:\LearingProject\Python\09_代码接口测试\01_Requests库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.08_输入封装">
-    <configuration name="04_元素练习" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.14_高级手势">
+    <configuration name="10_定位元素容错机制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/04_元素练习.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/10_定位元素容错机制.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05_元素定位封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12_滑屏操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/05_元素定位封装.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/12_滑屏操作.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="06_元素操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13_边滑动边查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +140,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/06_元素操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/13_边滑动边查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_元素获取" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14_高级手势" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +161,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/07_元素获取.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/14_高级手势.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08_输入封装" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +182,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/08_输入封装.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/MyTools.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.08_输入封装" />
-        <item itemvalue="Python.07_元素获取" />
-        <item itemvalue="Python.06_元素操作" />
-        <item itemvalue="Python.05_元素定位封装" />
-        <item itemvalue="Python.04_元素练习" />
+        <item itemvalue="Python.14_高级手势" />
+        <item itemvalue="Python.13_边滑动边查找" />
+        <item itemvalue="Python.12_滑屏操作" />
+        <item itemvalue="Python.10_定位元素容错机制" />
+        <item itemvalue="Python.MyTools" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651256415916</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="appium元素定位、操作">
+      <created>1652098374664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652098374664</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,7 +296,8 @@
     <MESSAGE value="selenium元素等待" />
     <MESSAGE value="selenium元素强制等待" />
     <MESSAGE value="selenium html元素操作、验证码处理及文件上传的处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium html元素操作、验证码处理及文件上传的处理" />
+    <MESSAGE value="appium元素定位、操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="appium元素定位、操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -296,6 +306,11 @@
           <url>file://$PROJECT_DIR$/13_selenium/35_重复执行注册用例.py</url>
           <line>39</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/App/Python3.10.2/Lib/site-packages/appium/webdriver/extensions/action_helpers.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
