@@ -1,7 +1,19 @@
 # 导入显示等待元素模块
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import time
+
 class Tools:
+    # 定位toast元素信息内容的方法，传入三个参数：
+    # 驱动对象、toast包含的信息、等待时间(设置3秒)
+    @classmethod
+    def getToastElement(cls, dr, mesg, timeout=3):
+        xpathValue = "//*[ contains(@text,'{}' ) ]".format(mesg)
+        findParams = By.XPATH, xpathValue
+        toastEle = WebDriverWait(dr, timeout, 1).until(
+            lambda e: e.find_element(*findParams) )
+        return toastEle.text
+
     # 类方法，不需要实例化，通过类名调用即可
     # 减少代码量，显示等待来定位方法进行封装，返回定位的元素
     # findParams表示find_element()的两个参数：By.XX,“对应的参数”，用元组传入
@@ -55,15 +67,15 @@ class Tools:
     # 区域内滑动，Y轴坐标的值不变，居中。只改变x坐标的值，实现左右滑动
     @classmethod
     def swipeAndFind(cls, driver, scrollBlockEle, findTargetParams):
-        scrollBlockSize = scrollBlockEle.size    # 获取滑动区域块的大小
-        h = scrollBlockSize["height"]           # 获取滑动区域块的宽度
-        w = scrollBlockSize["width"]            # 获取滑动区域块的高度
-        scrollBlockPos = scrollBlockEle.location # 获取滑动区域块的坐标位置
-        x = scrollBlockPos["x"]                 # 获取区域快左上角x的坐标值
-        y= scrollBlockPos["y"]                  # 获取区域快左上角y的坐标值
-        start_x = x + w*0.9                     # 设置滑动起始点X的值
-        y = y + h*0.5                           # 设置滑动Y的值。(中间位置)
-        end_x = x + w*0.1                       # 设置滑动终点X的值
+        scrollBlockSize = scrollBlockEle.size  # 获取滑动区域块的大小
+        h = scrollBlockSize["height"]  # 获取滑动区域块的宽度
+        w = scrollBlockSize["width"]  # 获取滑动区域块的高度
+        scrollBlockPos = scrollBlockEle.location  # 获取滑动区域块的坐标位置
+        x = scrollBlockPos["x"]  # 获取区域快左上角x的坐标值
+        y = scrollBlockPos["y"]  # 获取区域快左上角y的坐标值
+        start_x = x + w * 0.9  # 设置滑动起始点X的值
+        y = y + h * 0.5  # 设置滑动Y的值。(中间位置)
+        end_x = x + w * 0.1  # 设置滑动终点X的值
         while True:
             # 记录page_source返回页面源码，通过对比页面资源来退出死循环
             pages = driver.page_source
@@ -82,3 +94,13 @@ class Tools:
                 if pages == driver.page_source:
                     print("滑动结束，未找到元素信息")
                     return False
+
+    # 定位toast元素信息内容的方法，传入三个参数：
+    # 驱动对象、toast包含的信息、等待时间(设置3秒)
+    @classmethod
+    def getToastElement(cls, dr, mesg, timeout=3):
+        xpathValue = "//*[ contains(@text,'{}' ) ]".format(mesg)
+        findParams = By.XPATH, xpathValue
+        toastEle = WebDriverWait(dr, timeout, 1).until(
+            lambda e: e.find_element(*findParams) )
+        return toastEle.text
