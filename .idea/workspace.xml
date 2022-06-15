@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="完结appium">
-      <change afterPath="$PROJECT_DIR$/14_Appium/15_toast.py" afterDir="false" />
+    <list default="true" id="c2b5fc6d-0d02-4a6d-a94b-a9584daf453e" name="Changes" comment="toast操作及获取方法的封装">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_Pytest/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_Pytest/scripts/01pytest入门.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_Pytest/scripts/02ordering.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/15_Pytest/scripts/test_03paramateralized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/16_面试题/01_列表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_Logging/01_basiclogging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_Logging/02_setloggingLevel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_Logging/03_loggerClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_Logging/04_handlerClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17_Logging/05_formatterLog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14_Appium/MyTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/14_Appium/MyTools.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +66,9 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CI" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IT教程资料大全/传智/黑马测试4.0/课件/003 配套资料/01讲义 笔记 软件/01讲义 笔记 软件/08、金融项目实战/金融项目/金融项目/day9/python/apiTestP2P" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="Push.Settings">
     <force-push-targets>
@@ -74,15 +84,15 @@
       <recent name="E:\LearingProject\Python\10_代码接口测试\01_Requests库" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\LearingProject\Python\15_Pytest" />
+      <recent name="E:\LearingProject\Python\" />
+      <recent name="E:\LearingProject\Python\15_Pytest\scripts" />
       <recent name="E:\LearingProject\Python\10_代码接口测试" />
       <recent name="E:\LearingProject\Python" />
-      <recent name="E:\LearingProject\Python\10_代码接口测试\IHRM项目实战" />
-      <recent name="E:\LearingProject\Python\08_包\myPack" />
-      <recent name="E:\LearingProject\Python\09_代码接口测试\01_Requests库" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.15_toast">
-    <configuration name="10_定位元素容错机制" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.05_formatterLog">
+    <configuration name="01_列表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/16_面试题" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/10_定位元素容错机制.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16_面试题/01_列表.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="12_滑屏操作" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="01_basiclogging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_Logging" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/12_滑屏操作.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_Logging/01_basiclogging.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13_边滑动边查找" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_setloggingLevel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_Logging" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/13_边滑动边查找.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_Logging/02_setloggingLevel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14_高级手势" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_handlerClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +163,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_Logging" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/14_高级手势.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_Logging/04_handlerClass.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15_toast" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="05_formatterLog" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +184,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/14_Appium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17_Logging" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14_Appium/15_toast.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17_Logging/05_formatterLog.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.15_toast" />
-        <item itemvalue="Python.14_高级手势" />
-        <item itemvalue="Python.13_边滑动边查找" />
-        <item itemvalue="Python.12_滑屏操作" />
-        <item itemvalue="Python.10_定位元素容错机制" />
+        <item itemvalue="Python.05_formatterLog" />
+        <item itemvalue="Python.04_handlerClass" />
+        <item itemvalue="Python.02_setloggingLevel" />
+        <item itemvalue="Python.01_basiclogging" />
+        <item itemvalue="Python.01_列表" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652294553661</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="toast操作及获取方法的封装">
+      <created>1652811896447</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652811896447</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,7 +318,8 @@
     <MESSAGE value="selenium html元素操作、验证码处理及文件上传的处理" />
     <MESSAGE value="appium元素定位、操作" />
     <MESSAGE value="完结appium" />
-    <option name="LAST_COMMIT_MESSAGE" value="完结appium" />
+    <MESSAGE value="toast操作及获取方法的封装" />
+    <option name="LAST_COMMIT_MESSAGE" value="toast操作及获取方法的封装" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

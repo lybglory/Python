@@ -1,0 +1,2 @@
+2022-05-29 19:31:39,647 INFO [root] [05_formatterLog.py(<module>:38)] - this's info log
+2022-05-29 19:31:39,649 WARNING [root] [05_formatterLog.py(<module>:39)] - this's warning log
